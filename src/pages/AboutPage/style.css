@@ -1,0 +1,83 @@
+.about-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.content-grid {
+  display: flex;
+  flex: auto;
+  flex-direction: column;
+  padding: 4rem 3rem 1rem;
+  text-align: left;
+}
+
+.content-grid > h1 {
+  margin: 1rem 0;
+  font-size: 3rem;
+}
+
+.about-page .content-grid .about-content {
+  font-size: 1.2rem;
+}
+
+.about-page .content-grid .about-content p::selection {
+  background-color: #fff;
+  color: rgb(95, 95, 95);
+}
+
+.about-page .content-grid .about-content .highlight {
+  background-color: rgb(255,255,255, 0.6);
+  color: rgb(95, 95, 95);
+}
+
+.about-page .content-grid .about-content .highlight::selection {
+  background-color: rgb(255,255,255, 0);
+}
+
+.about-page .content-grid .about-content .text-emoji {
+  text-align: center;
+  font-size: 1.6rem;
+}
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 768px) {
+  .content-grid > h1 {
+    font-size: 2.5rem;
+  }
+
+  .about-page .content-grid .about-content {
+    font-size: 1.05rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .content-grid {
+    padding: 3.25rem 2rem 1rem;
+  }
+
+  .content-grid > h1 {
+    font-size: 2.4rem;
+  }
+
+  .about-page .content-grid .about-content {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .content-grid {
+    padding: 3rem 2rem 1rem;
+  }
+
+  .content-grid > h1 {
+    font-size: 2.1rem;
+  }
+
+  .about-page .content-grid .about-content {
+    font-size: 0.8rem;
+  }
+}
