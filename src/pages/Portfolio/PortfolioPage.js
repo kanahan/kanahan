@@ -5,9 +5,6 @@ import portfolioItems from './portfolio-items.json';
 import './style.css';
 
 const PortfolioPage = () => {
-  if ('test' == 'test') {
-
-  }
   return (
     <div className="portfolio-page">
       <div className="content-grid">

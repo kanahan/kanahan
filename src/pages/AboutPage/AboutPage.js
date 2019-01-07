@@ -29,8 +29,7 @@ const AboutPage = () => {
               (except React though) and had so much fun along the way.
             </p>
             <p>
-              React-Redux, Node.js, .Net and
-              AWS are the main tricks up my sleeve. I am also obsessed with making the web look pretty with CSS.
+              I am also obsessed with making the web look pretty with CSS.
             </p>
             <p className="text-emoji">
               ¯\_(ツ)_/¯
